@@ -5,12 +5,12 @@ IsGabber(Player1)
 Class(Player1,FIGHTER)
 Kit(Player1,0)
 Global("CbBarbariansTaught","AR3591",0)
-!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
+/*!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
 !GlobalGT("CbRangerDeadDear","GLOBAL",0)
 !GlobalGT("CbDruidTeachingSeeds","GLOBAL",0)
 !GlobalGT("CbTumblingWizardWantsResearch","GLOBAL",0)
 !GlobalGT("CbElvenSorceressWantsSeeds","GLOBAL",0)
-!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)~ THEN BEGIN 0
+!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)*/~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN EXTERN ~CBNRT025~ 0
 END

@@ -3,12 +3,12 @@ BEGIN ~CB585RNG~
 IF ~Global("CbRangerDeadDear","GLOBAL",0)
 Class(LastTalkedToBy(Myself),RANGER)
 Global("CbRangerTaught","AR3585",0)
-!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
+/*!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
 !GlobalGT("CbRangerDeadDear","GLOBAL",0)
 !GlobalGT("CbDruidTeachingSeeds","GLOBAL",0)
 !GlobalGT("CbTumblingWizardWantsResearch","GLOBAL",0)
 !GlobalGT("CbElvenSorceressWantsSeeds","GLOBAL",0)
-!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)~ THEN BEGIN 0
+!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)*/~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN GOTO 1
 END

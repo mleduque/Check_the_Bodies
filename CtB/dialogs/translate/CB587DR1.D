@@ -3,12 +3,12 @@ BEGIN ~CB587DR1~
 IF ~Global("CbDruidTeachingSeeds","GLOBAL",0)
 Class(LastTalkedToBy(Myself),DRUID)
 Gender(LastTalkedToBy(Myself),MALE)
-!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
+/*!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
 !GlobalGT("CbRangerDeadDear","GLOBAL",0)
 !GlobalGT("CbDruidTeachingSeeds","GLOBAL",0)
 !GlobalGT("CbTumblingWizardWantsResearch","GLOBAL",0)
 !GlobalGT("CbElvenSorceressWantsSeeds","GLOBAL",0)
-!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)~ THEN BEGIN 0
+!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)*/~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN GOTO 1
 END

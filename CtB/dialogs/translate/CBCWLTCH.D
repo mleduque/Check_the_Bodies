@@ -6,12 +6,12 @@ Gender(LastTalkedToBy(Myself),FEMALE)
 OR(2)
 	Class(LastTalkedToBy(Myself),SORCERER)
 	Class(LastTalkedToBy(Myself),MAGE_ALL)
-!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
+/*!GlobalGT("CbMasterBardWantsHarp","GLOBAL",0)
 !GlobalGT("CbRangerDeadDear","GLOBAL",0)
 !GlobalGT("CbDruidTeachingSeeds","GLOBAL",0)
 !GlobalGT("CbTumblingWizardWantsResearch","GLOBAL",0)
 !GlobalGT("CbElvenSorceressWantsSeeds","GLOBAL",0)
-!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)~ THEN BEGIN 0
+!GlobalGT("CbNorthmenWantStaff","GLOBAL",0)*/~ THEN BEGIN 0
   SAY @1
   IF ~~ THEN REPLY @2 GOTO 7
   IF ~~ THEN REPLY @3 GOTO 4
